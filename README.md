@@ -32,7 +32,8 @@ Tech Stack
 
 ## Milestone 1: Data Preparation & Feature Engineering
 
-* Objective: Successfully load, preprocess, and prepare the CMAPSS dataset for model training, including the creation of appropriate features and RUL targets.
+* Objective:
+* Successfully load, preprocess, and prepare the CMAPSS dataset for model training, including the creation of appropriate features and RUL targets.
 * Deliverables:
 * Cleaned and preprocessed CMAPSS sensor data.
 * Python scripts for data loading and preprocessing.
@@ -46,7 +47,8 @@ Tech Stack
 
 ## Milestone 2: Model Development & Training
 
-* Objective: Develop and train a time-series deep learning model (LSTM/GRU) capable of learning patterns from sensor data to predict RUL.
+* Objective:
+* Develop and train a time-series deep learning model (LSTM/GRU) capable of learning patterns from sensor data to predict RUL.
 * Deliverables:
 * Implemented LSTM or GRU model architecture.
 * Trained model weights.
@@ -58,7 +60,8 @@ Tech Stack
 * Proper implementation of the deep learning model.
 
 ## Milestone 3: Model Evaluation & Performance Assessment
-* Objective: Rigorously evaluate the trained model's performance using defined metrics and analyze its predictive accuracy.
+* Objective:
+* Rigorously evaluate the trained model's performance using defined metrics and analyze its predictive accuracy.
 * Deliverables:
 * Calculated RMSE scores for the test set.
 * Plots comparing predicted RUL against actual RUL.
@@ -70,7 +73,8 @@ Tech Stack
 * Identification and understanding of model limitations.
 
 ## Milestone 4: Risk Thresholding & Alert System
-* Objective: Define and implement a mechanism to translate RUL predictions into actionable maintenance alerts.
+* Objective:
+* Define and implement a mechanism to translate RUL predictions into actionable maintenance alerts.
 * Deliverables:
 * Defined RUL thresholds for different alert levels (e.g., warning, critical).
 * Logic for triggering maintenance alerts based on predicted RUL.
@@ -81,7 +85,8 @@ Tech Stack
 * Practical applicability of the alerting mechanism.
 
 ## Milestone 5: Visualization & Dashboard Development
-* Objective: Create interactive visualizations and a dashboard to present RUL trends, predictions, and alerts.
+* Objective:
+* Create interactive visualizations and a dashboard to present RUL trends, predictions, and alerts.
 * Deliverables:
 * Interactive charts displaying RUL trends over time.
 * Dashboards showing current RUL predictions and alert zones.
@@ -90,6 +95,7 @@ Tech Stack
 * Clarity and informativeness of visualizations.
 * Responsiveness and usability of the dashboard.
 o Ability to convey critical insights about asset health and potential risks.
+
 
 
 
