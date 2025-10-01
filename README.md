@@ -7,7 +7,9 @@ To design and develop an AI-based predictive maintenance system capable of estim
 Project Workflow
 
 ## 1. Data Ingestion
+
     * Load and preprocess the CMAPSS sensor dataset (cycle-wise engine data).
+    
 ## 2. Feature Engineering
     * Create rolling window sequences and compute Remaining Useful Life (RUL) targets.
 ## 3. Model Training
@@ -83,6 +85,7 @@ Milestone 5: Visualization & Dashboard Development
 * Clarity and informativeness of visualizations.
 * Responsiveness and usability of the dashboard.
 o Ability to convey critical insights about asset health and potential risks.
+
 
 
 
