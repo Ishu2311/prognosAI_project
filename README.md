@@ -6,19 +6,17 @@ To design and develop an AI-based predictive maintenance system capable of estim
 
 Project Workflow
 
-## 1. Data Ingestion
-
+1. Data Ingestion
     * Load and preprocess the CMAPSS sensor dataset (cycle-wise engine data).
-    
-## 2. Feature Engineering
+ 2. Feature Engineering
     * Create rolling window sequences and compute Remaining Useful Life (RUL) targets.
-## 3. Model Training
+ 3. Model Training
     * Train a time-series model (e.g., LSTM or GRU) to predict RUL from sensor sequences.
-## 4. Model Evaluation
+ 4. Model Evaluation
     * Evaluate performance using RMSE and compare predicted RUL vs actual RUL.
-## 5. Risk Thresholding
+ 5. Risk Thresholding
     * Define thresholds to trigger maintenance alerts based on predicted RUL.
-## 6. Visualization & Output
+ 6. Visualization & Output
     * Present results via charts and dashboards showing RUL trends and alert zones.
 Architecture Diagram
 
@@ -31,7 +29,9 @@ Tech Stack
 * Streamlit / Flask – Dashboard or API interface
 * Docker – Optional deployment
 * NASA CMAPSS Dataset – Source data
-Milestone 1: Data Preparation & Feature Engineering
+
+## Milestone 1: Data Preparation & Feature Engineering
+
 * Objective: Successfully load, preprocess, and prepare the CMAPSS dataset for model training, including the creation of appropriate features and RUL targets.
 * Deliverables:
 * Cleaned and preprocessed CMAPSS sensor data.
@@ -43,7 +43,9 @@ Milestone 1: Data Preparation & Feature Engineering
 * Correctness of rolling window sequence generation.
 * Accuracy of RUL target calculations.
 * Documentation of data preparation steps.
-Milestone 2: Model Development & Training
+
+## Milestone 2: Model Development & Training
+
 * Objective: Develop and train a time-series deep learning model (LSTM/GRU) capable of learning patterns from sensor data to predict RUL.
 * Deliverables:
 * Implemented LSTM or GRU model architecture.
@@ -54,7 +56,8 @@ Milestone 2: Model Development & Training
 * Convergence of training process (loss reduction).
 * Initial performance on validation set (e.g., visual inspection of predicted vs. actual RUL).
 * Proper implementation of the deep learning model.
-Milestone 3: Model Evaluation & Performance Assessment
+
+## Milestone 3: Model Evaluation & Performance Assessment
 * Objective: Rigorously evaluate the trained model's performance using defined metrics and analyze its predictive accuracy.
 * Deliverables:
 * Calculated RMSE scores for the test set.
@@ -65,7 +68,8 @@ Milestone 3: Model Evaluation & Performance Assessment
 * Achieve an acceptable RMSE score (e.g., below a predefined threshold).
 * Visual consistency between predicted and actual RUL plots.
 * Identification and understanding of model limitations.
-Milestone 4: Risk Thresholding & Alert System
+
+## Milestone 4: Risk Thresholding & Alert System
 * Objective: Define and implement a mechanism to translate RUL predictions into actionable maintenance alerts.
 * Deliverables:
 * Defined RUL thresholds for different alert levels (e.g., warning, critical).
@@ -75,7 +79,8 @@ Milestone 4: Risk Thresholding & Alert System
 * Effectiveness of thresholds in identifying potential failures early.
 * Clarity and accuracy of alert triggers.
 * Practical applicability of the alerting mechanism.
-Milestone 5: Visualization & Dashboard Development
+
+## Milestone 5: Visualization & Dashboard Development
 * Objective: Create interactive visualizations and a dashboard to present RUL trends, predictions, and alerts.
 * Deliverables:
 * Interactive charts displaying RUL trends over time.
@@ -85,6 +90,7 @@ Milestone 5: Visualization & Dashboard Development
 * Clarity and informativeness of visualizations.
 * Responsiveness and usability of the dashboard.
 o Ability to convey critical insights about asset health and potential risks.
+
 
 
 
