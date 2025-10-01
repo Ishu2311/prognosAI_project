@@ -1,19 +1,22 @@
 
 # PrognosAI:AI-Driven Predictive Maintenance System Using Time-Series Sensor Data
 Project Objective
+
 To design and develop an AI-based predictive maintenance system capable of estimating the Remaining Useful Life (RUL) of industrial machinery using multivariate time-series sensor data. The system will be prototyped using the NASA CMAPSS dataset and structured to generalize across similar domains such as turbines, pumps, and motors. The objective is to enable timely maintenance decisions, minimize unplanned downtime, and optimize asset utilization by applying deep learning techniques like LSTM for sequential pattern recognition and failure prediction.
+
 Project Workflow
-1. Data Ingestion
+
+##1. Data Ingestion
     * Load and preprocess the CMAPSS sensor dataset (cycle-wise engine data).
-2. Feature Engineering
+##2. Feature Engineering
     * Create rolling window sequences and compute Remaining Useful Life (RUL) targets.
-3. Model Training
+##3. Model Training
     * Train a time-series model (e.g., LSTM or GRU) to predict RUL from sensor sequences.
-4. Model Evaluation
+##4. Model Evaluation
     * Evaluate performance using RMSE and compare predicted RUL vs actual RUL.
-5. Risk Thresholding
+##5. Risk Thresholding
     * Define thresholds to trigger maintenance alerts based on predicted RUL.
-6. Visualization & Output
+##6. Visualization & Output
     * Present results via charts and dashboards showing RUL trends and alert zones.
 Architecture Diagram
 
@@ -80,6 +83,7 @@ Milestone 5: Visualization & Dashboard Development
 * Clarity and informativeness of visualizations.
 * Responsiveness and usability of the dashboard.
 o Ability to convey critical insights about asset health and potential risks.
+
 
 
 
