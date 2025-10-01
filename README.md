@@ -20,7 +20,7 @@ Project Workflow
     * Present results via charts and dashboards showing RUL trends and alert zones.
 Architecture Diagram
 
-Tech Stack
+### Tech Stack
 * Python – Core programming language
 * Pandas, NumPy – Data processing
 * Matplotlib, Seaborn – Visualization
@@ -95,6 +95,7 @@ Tech Stack
 * Clarity and informativeness of visualizations.
 * Responsiveness and usability of the dashboard.
 o Ability to convey critical insights about asset health and potential risks.
+
 
 
 
